@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>MyTextProcessingPackage.MA</PackageId>
+    <Title>My Text Processing Service</Title>
+    <Authors>Mehmet Alakus</Authors>
+    <Company>Mehmet Alakus</Company>
+    <Product>My Text Processing Service</Product>
+    <Description>It provides simple and useful tools for processing text. Operations such as converting text to upper/lower case and counting the number of words are performed.
+</Description>
+    <Copyright>Copyright 2024</Copyright>
+    <PackageIcon>text-plus-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/mhmtalakus/MyTextProcessingPackage</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>text, string, processing, manipulation, utility, helper, case conversion, word count</PackageTags>
+    <PackageReleaseNotes>The first version has been published. Added basic functions for text processing.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>False</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Version>8.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\text-plus-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
